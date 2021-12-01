@@ -1,0 +1,22 @@
+{
+	"name": "Src_Emp_Files",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Src_Emp_Loop_Folder",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Emp_Loop",
+				"container": "uatcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

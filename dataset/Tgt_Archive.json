@@ -1,0 +1,22 @@
+{
+	"name": "Tgt_Archive",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Tgrt_Archive_Connection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Archive",
+				"container": "uatcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "UATADFPractice"
 		},
+		"Src_Emp_Loop_Folder_connectionString": {
+			"value": ""
+		},
+		"Tgrt_Archive_Connection_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
